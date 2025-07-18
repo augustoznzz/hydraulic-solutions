@@ -1,0 +1,67 @@
+import { GraduationCap, Award, Clock, Wrench } from "lucide-react";
+
+export default function ProfessionalProfile() {
+  return (
+    <section id="sobre" className="py-16 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-dark-gray mb-4">Conheça o Profissional</h2>
+            <p className="text-gray-600 text-lg">Experiência e dedicação em cada serviço</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="text-center md:text-left">
+              <img 
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400" 
+                alt="Cleber - Especialista em Detecção de Vazamentos" 
+                className="w-64 h-64 rounded-full mx-auto md:mx-0 object-cover shadow-xl"
+              />
+            </div>
+            
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-2xl font-bold text-dark-gray mb-2">Cleber Santos</h3>
+                <p className="text-primary-blue font-semibold mb-4">Especialista em Detecção de Vazamentos</p>
+              </div>
+              
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <GraduationCap className="text-soft-green text-xl mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-dark-gray">Formação Técnica</h4>
+                    <p className="text-gray-600">Técnico em Hidráulica Industrial - SENAI</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <Award className="text-soft-green text-xl mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-dark-gray">Certificações</h4>
+                    <p className="text-gray-600">Especialização em Detecção por Ultrassom e Termografia</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <Clock className="text-soft-green text-xl mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-dark-gray">Experiência</h4>
+                    <p className="text-gray-600">Mais de 15 anos no mercado de detecção de vazamentos</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start space-x-3">
+                  <Wrench className="text-soft-green text-xl mt-1 flex-shrink-0" />
+                  <div>
+                    <h4 className="font-semibold text-dark-gray">Equipamentos</h4>
+                    <p className="text-gray-600">Tecnologia de ponta para detecção precisa e não invasiva</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
