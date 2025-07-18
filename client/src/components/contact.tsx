@@ -18,10 +18,10 @@ export default function Contact() {
             Precisa de ajuda com vazamentos? Fale conosco pelo WhatsApp!
           </p>
           
-          <div className="bg-gradient-to-r from-soft-green to-primary-blue p-8 rounded-2xl shadow-xl">
+          <div className="bg-gradient-to-t from-blue-100 via-blue-50 to-white p-8 rounded-2xl shadow-xl border border-blue-200">
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="text-white">
-                <h3 className="text-2xl font-bold mb-4">Atendimento 24/7</h3>
+              <div className="text-dark-gray">
+                <h3 className="text-2xl font-bold mb-4 text-primary-blue">Atendimento 24/7</h3>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="text-xl" />
@@ -41,12 +41,12 @@ export default function Contact() {
               <div className="text-center">
                 <Button 
                   onClick={openWhatsApp}
-                  className="bg-white text-soft-green px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all transform hover:scale-105 shadow-lg"
+                  className="bg-soft-green text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-soft-green/90 transition-all transform hover:scale-105 shadow-lg"
                 >
                   <MessageCircle className="mr-3 h-6 w-6" />
                   Falar no WhatsApp
                 </Button>
-                <p className="text-white/90 text-sm mt-3">
+                <p className="text-gray-600 text-sm mt-3">
                   Resposta rápida garantida
                 </p>
               </div>
