@@ -68,7 +68,6 @@ Para outros provedores de hosting estático, certifique-se de:
 
 ## 📁 Estrutura do Projeto
 
-```
 sitewe/
 ├── client/                 # Frontend React
 │   ├── src/
@@ -84,7 +83,6 @@ sitewe/
 ├── vite.config.ts         # Configuração Vite
 ├── tailwind.config.ts     # Configuração Tailwind
 └── tsconfig.json          # Configuração TypeScript
-```
 
 ## 🎨 Componentes UI
 
@@ -95,36 +93,3 @@ O projeto usa [shadcn/ui](https://ui.shadcn.com/) para componentes acessíveis e
 O site é totalmente responsivo e otimizado para dispositivos móveis.
 
 ## 🔧 Configurações
-
-### Vite
-- Configurado para build em `dist/public`
-- Aliases configurados para `@/` e `@shared/`
-- Plugins do Replit removidos para compatibilidade com produção
-
-### Tailwind CSS
-- Configurado com tema customizado
-- Animações e plugins incluídos
-- Tipografia otimizada
-
-### TypeScript
-- Configuração estrita habilitada
-- Path mapping configurado
-- Build incremental habilitado
-
-## 🐛 Troubleshooting
-
-### Erro de build
-Se encontrar erros de build, verifique:
-
-1. Todas as dependências estão instaladas: `npm install`
-2. Versões do Node.js (recomendado: 18+)
-3. Cache limpo: `npm run build --force`
-
-### Problemas de deploy
-- Verifique se o arquivo `netlify.toml` está correto
-- Confirme se o diretório de build está configurado como `dist/public`
-- Teste o build localmente antes do deploy
-
-## 📄 Licença
-
-Este projeto é privado e de uso exclusivo da empresa Caça Vazamentos. 
