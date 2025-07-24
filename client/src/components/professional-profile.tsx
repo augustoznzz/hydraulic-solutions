@@ -21,7 +21,7 @@ export default function ProfessionalProfile() {
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-dark-gray mb-2">Cleber Santos</h3>
+                <h3 className="text-2xl font-bold text-dark-gray mb-2">Cleber Peres</h3>
                 <p className="text-primary-blue font-semibold mb-4">Especialista em Detecção de Vazamentos</p>
               </div>
               
@@ -30,18 +30,10 @@ export default function ProfessionalProfile() {
                   <GraduationCap className="text-soft-green text-xl mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-dark-gray">Formação Técnica</h4>
-                    <p className="text-gray-600">Técnico em Hidráulica Industrial - SENAI</p>
+                    <p className="text-gray-600">Noções gerais de instalação hidráulica - SAA</p>
+                    <p className="text-gray-600">⁠Controle e redução de perdas de água - geofonamento</p>
                   </div>
                 </div>
-                
-                <div className="flex items-start space-x-3">
-                  <Award className="text-soft-green text-xl mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-dark-gray">Certificações</h4>
-                    <p className="text-gray-600">Especialização em Detecção por Ultrassom e Termografia</p>
-                  </div>
-                </div>
-                
                 <div className="flex items-start space-x-3">
                   <Clock className="text-soft-green text-xl mt-1 flex-shrink-0" />
                   <div>
@@ -54,7 +46,8 @@ export default function ProfessionalProfile() {
                   <Wrench className="text-soft-green text-xl mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-dark-gray">Equipamentos</h4>
-                    <p className="text-gray-600">Tecnologia de ponta para detecção precisa e não invasiva</p>
+                    <p className="text-gray-600">Geofonamento com equipamento analógico e eletrônico</p>
+                    <p className="text-gray-600">Utilização  de compressor de ar para pressurização da rede hidráulica</p>
                   </div>
                 </div>
               </div>

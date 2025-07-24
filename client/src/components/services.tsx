@@ -5,20 +5,14 @@ export default function Services() {
     {
       icon: Search,
       title: "Detecção de Vazamentos",
-      description: "Identificação precisa de vazamentos em tubulações com equipamentos de última geração, sem quebras desnecessárias.",
+      description: "Identificação precisa de vazamentos em tubulações, sem quebras desnecessárias.",
       color: "bg-blue-50 text-primary-blue"
     },
     {
       icon: Wrench,
       title: "Reparo de Tubulações",
-      description: "Reparos em tubulações de água, esgoto e gás com materiais de qualidade e garantia de serviço.",
+      description: "Reparos em tubulações de água, com materiais de qualidade e garantia de serviço.",
       color: "bg-green-50 text-soft-green"
-    },
-    {
-      icon: Zap,
-      title: "Desentupimento",
-      description: "Desentupimento de pias, ralos, vasos sanitários e redes de esgoto com equipamentos especializados.",
-      color: "bg-blue-50 text-primary-blue"
     },
     {
       icon: Hammer,
