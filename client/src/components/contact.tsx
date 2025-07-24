@@ -26,7 +26,11 @@ export default function Contact() {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="text-xl" />
-                    <span>(48) 98421-7911</span>
+                    <span>Cleber Peres: (48) 98421-7911</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Phone className="text-xl" />
+                    <span>Marcos Jorge: (48) 98416-9532</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Clock className="text-xl" />
