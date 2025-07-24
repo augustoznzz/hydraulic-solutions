@@ -3,7 +3,7 @@ import { MessageCircle, Star } from "lucide-react";
 
 export default function Hero() {
   const openWhatsApp = () => {
-    const phoneNumber = "5548996987771";
+    const phoneNumber = "5548984217911";
     const message = "Olá, gostaria de mais informações sobre o serviço de vazamentos.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -32,7 +32,7 @@ export default function Hero() {
               Detecção Precisa de <span className="text-primary-blue">Vazamentos</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Soluções profissionais para identificar e reparar vazamentos com tecnologia avançada e anos de experiência no mercado.
+              Soluções profissionais para identificar e reparar vazamentos com e anos de experiência no mercado.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
