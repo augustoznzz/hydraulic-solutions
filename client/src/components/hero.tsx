@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Star } from "lucide-react";
 
+const WHATSAPP_NUMBER = "5548984217911";
+const WHATSAPP_MESSAGE = "Olá, gostaria de mais informações sobre o serviço de vazamentos.";
+
 export default function Hero() {
   const openWhatsApp = () => {
-    const phoneNumber = "5548984217911";
-    const message = "Olá, gostaria de mais informações sobre o serviço de vazamentos.";
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
     window.open(whatsappUrl, '_blank');
   };
 
