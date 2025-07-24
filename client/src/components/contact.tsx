@@ -3,7 +3,7 @@ import { Phone, Clock, MapPin, MessageCircle, Shield, Zap, DollarSign } from "lu
 
 export default function Contact() {
   const openWhatsApp = () => {
-    const phoneNumber = "5548996987771";
+    const phoneNumber = "5548984217911";
     const message = "Olá, gostaria de mais informações sobre o serviço de vazamentos.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -25,7 +25,7 @@ export default function Contact() {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Phone className="text-xl" />
-                    <span>(48) 99698-7771</span>
+                    <span>(48) 98421-7911</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Clock className="text-xl" />
