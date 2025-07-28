@@ -1,4 +1,4 @@
-import { Search, Wrench, Zap, Hammer, Settings } from "lucide-react";
+import { Search, Wrench, Zap, Hammer, Settings, Droplets } from "lucide-react";
 
 export default function Services() {
   const services = [
@@ -19,6 +19,12 @@ export default function Services() {
       title: "Instalação Hidráulica",
       description: "Instalação completa de sistemas hidráulicos residenciais e comerciais seguindo as normas técnicas.",
       color: "bg-green-50 text-soft-green"
+    },
+    {
+      icon: Droplets,
+      title: "Limpeza de Caixa d'Água",
+      description: "Limpeza especializada de caixa d'água, com produtos adequados para manter a qualidade da água sempre limpa.",
+      color: "bg-blue-50 text-primary-blue"
     },
     {
       icon: Settings,
