@@ -32,6 +32,9 @@ export default function Footer() {
                 <Phone className="h-4 w-4" />
                 <span>(48) 98421-7911</span>
               </div>
+              <Phone className="h-4 w-4" />
+                <span>(48) 98416-9532</span>
+              </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
                 <span>Florianópolis - SC</span>
@@ -45,7 +48,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Caça Vazamentos. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Caça Vazamentos. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
