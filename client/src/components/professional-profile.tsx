@@ -13,7 +13,7 @@ export default function ProfessionalProfile() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="text-center md:text-left">
               <img 
-                src="/.images/cleber" 
+                src="/.netlify/images?url=/images/cleber" 
                 alt="Cleber - Especialista em Detecção de Vazamentos" 
                 className="w-64 h-64 rounded-full mx-auto md:mx-0 object-cover shadow-xl"
               />
