@@ -1,4 +1,4 @@
-# Caça Vazamentos - Site Institucional
+# Soluções Hidráulicas - Site Institucional
 
 Site institucional para empresa especializada em detecção e reparo de vazamentos em Florianópolis e região.
 

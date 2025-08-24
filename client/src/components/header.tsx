@@ -26,7 +26,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Search className="text-primary-blue text-2xl" />
-            <h1 className="text-2xl font-bold text-dark-gray">Caça Vazamentos</h1>
+            <h1 className="text-2xl font-bold text-dark-gray">Soluções Hidráulicas</h1>
           </div>
           
           <nav className="hidden md:flex space-x-8">
