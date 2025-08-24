@@ -13,7 +13,7 @@ export default function ProfessionalProfile() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="text-center md:text-left">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400" 
+                src="https://imgur.com/36UNV8s" 
                 alt="Cleber - Especialista em Detecção de Vazamentos" 
                 className="w-64 h-64 rounded-full mx-auto md:mx-0 object-cover shadow-xl"
               />
