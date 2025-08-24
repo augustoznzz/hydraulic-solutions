@@ -56,7 +56,7 @@ export default function Hero() {
             <div className="relative">
               <img 
                 src="/images/cm.jpg" 
-                alt="Profissional trabalhando em tubulação" 
+                alt="Profissionais" 
                 className="rounded-2xl shadow-2xl w-80 h-96 object-cover"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-lg">
