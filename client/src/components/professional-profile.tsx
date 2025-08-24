@@ -78,7 +78,7 @@ export default function ProfessionalProfile() {
                   <Clock className="text-soft-green text-xl mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-dark-gray">Experiência</h4>
-                    <p className="text-gray-600">• 10 anos atuando em detecção e reparo de vazamentos</p>
+                    <p className="text-gray-600">• 15 anos atuando em detecção e reparo de vazamentos</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">

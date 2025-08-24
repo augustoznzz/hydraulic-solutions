@@ -20,7 +20,6 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Detecção de Vazamentos</li>
               <li>Reparo de Tubulações</li>
-              <li>Desentupimento</li>
               <li>Instalação Hidráulica</li>
               <li>Manutenção Preventiva</li>
             </ul>
