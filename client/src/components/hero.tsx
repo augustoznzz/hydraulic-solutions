@@ -55,7 +55,7 @@ export default function Hero() {
           <div className="flex justify-center">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=600" 
+                src="/images/cm.jpg" 
                 alt="Profissional trabalhando em tubulação" 
                 className="rounded-2xl shadow-2xl w-80 h-96 object-cover"
               />
