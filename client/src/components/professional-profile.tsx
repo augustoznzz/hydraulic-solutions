@@ -6,7 +6,7 @@ export default function ProfessionalProfile() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-dark-gray mb-4">Conheça o Profissional</h2>
+            <h2 className="text-3xl font-bold text-dark-gray mb-4">Conheça os Profissionais</h2>
             <p className="text-gray-600 text-lg">Experiência e dedicação em cada serviço</p>
           </div>
           
