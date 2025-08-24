@@ -55,7 +55,7 @@ export default function ProfessionalProfile() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left">
               <img 
-                src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
+                src="/images/marcos.jpg" 
                 alt="Marcos Jorge - Especialista em Detecção de Vazamentos" 
                 className="w-64 h-64 rounded-full mx-auto md:mx-0 object-cover shadow-xl"
               />
