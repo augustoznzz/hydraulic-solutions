@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Search className="text-primary-blue text-2xl" />
-              <h3 className="text-2xl font-bold">Soluções Hidráulicas</h3>
+              <h3 className="text-2xl font-bold">CM Soluções Hidráulicas</h3>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Especialistas em detecção e reparo de vazamentos com mais de 15 anos de experiência no mercado.
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 Soluções Hidráulicas. Todos os direitos reservados.</p>
+          <p>&copy; 2025 CM Soluções Hidráulicas. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
